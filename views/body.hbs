@@ -1,0 +1,31 @@
+    <h1>PRODUCTOS</h1>
+    <div class="container">
+
+        <!-- Alta de nuevo producto --> 
+        <h2>Alta de Producto</h2>
+        <hr>        
+        <form> 
+            <div class="row">
+                <div class="col-25"><label>Nombre :</label></div>
+                <div class="col-75"><input type="text" name="nombre" id="nombre" required></div>
+            </div>
+            <div class="row">
+                <div class="col-25"><label>Precio : </label></div>
+                <div class="col-75"><input type="text" name="precio" id="precio" required></div>
+            </div>
+            <div class="row">
+                <div class="col-25"><label>Url de la imagen :</label></div>
+                <div class="col-75"><input type="text" name="fotoUrl" id="fotoUrl" required></div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Enviar" id="altaProducto">     
+            </div>        
+        </form>
+    
+        <!-- lista de productos --> 
+        <h2>Lista de Productos</h2>
+        <hr>
+        <div id="listadoProductos"></div>
+
+
+    </div>
